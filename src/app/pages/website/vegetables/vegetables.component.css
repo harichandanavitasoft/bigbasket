@@ -1,0 +1,146 @@
+p{
+ 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.heading{
+    font-family:ProximaNova, Helvetica, Arial, sans-serif;
+}
+.dashed {border-style: dashed;}
+.menu{
+    background-color:#fff;
+}
+.unorder{
+   list-style: none;
+   border-left: 1px solid grey;
+   font-family:'Times New Roman', Times, serif;
+  
+}
+li{
+  padding-top: 3px;
+}
+.saver{
+    color:red;
+}
+input[name="collapse-checkbox"] {
+    display: none;
+  }
+  label {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .collapsable {
+    height: 0px;
+    overflow: hidden;
+  }
+  input[name="collapse-checkbox"]:checked ~ .collapsable {
+    height: auto;
+  }
+  input[name="collapse-checkbox"]:checked ~ label .caret-icon {
+    transform: rotate(90deg);
+  }
+  span {
+    margin-right: 1rem;
+  }
+  .ac-header{
+    background-color: rgb(238 238 238);
+
+
+  }
+  :root {
+    --nonchecked-color: #aaa;
+    --checked-color: #38f;
+  }
+  .switch{
+    -webkit-appearance: none;
+    position: relative;
+    border-radius: 10px;
+    width: 32px;
+    height: 20px;
+    border: solid 1px var(--nonchecked-color);
+    background: var(--nonchecked-color);
+    overflow: hidden;
+    transition: all .1s ease-out;
+  }
+  .switch:checked {
+    background: red;
+    border: solid 1px var(--checked-color);
+  }
+  .switch:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.2);
+  }
+  .switch:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #fff;
+    transition: all .1s ease-out;
+  }
+  .switch:checked:after {
+    left: 14px;
+  }
+  .checkbox:hover{
+    color: green;
+  size: 1px ;
+
+  }
+  
+  /* .container {
+    
+    background: #d4d4d4;
+   
+    
+  } */
+  
+  .checkKUI {
+    display: flex;
+  }
+  
+  .checkKUI input[type='checkbox'] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+  
+  .checkKUI label {
+    cursor: pointer;
+  
+    display: block;
+    border-radius: 50em;
+    position: relative;
+    transition: 0.3s;
+
+    box-sizing: content-box;
+  }
+  .bi-square{
+    font-size: large;
+
+  }
+  .checkKUI label:hover {
+   border-color: green;
+    transition: 0.5s;
+  }
+  
+  
+  .checkKUI input + label path { 
+    fill: #444;
+    transition: 0.3s;
+   }
+    
+  .checkKUI input:checked + label path {
+    fill: #e22;
+  }
+  

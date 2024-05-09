@@ -5,6 +5,7 @@ import { HomeComponent } from './pages/website/home/home.component';
 import { VegetablesComponent } from './pages/website/vegetables/vegetables.component';
 import { BeansOkraComponent } from './pages/website/beans-okra/beans-okra.component';
 import { TomatoComponent } from './pages/website/tomato/tomato.component';
+import { HdfcDiscountComponent } from './pages/website/hdfc-discount/hdfc-discount.component';
 
 
 
@@ -16,6 +17,7 @@ export const routes: Routes = [
         {path:'vegetbles',component:VegetablesComponent},
         {path:'beans',component:BeansOkraComponent},
         {path:'tomato',component:TomatoComponent},
+        {path:'hdfc',component:HdfcDiscountComponent}
 
         ]},
     

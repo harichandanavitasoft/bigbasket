@@ -146,4 +146,7 @@ p{
     .checkKUI input:checked + label path {
       fill: #e22;
     }
-    
+    .card-btn{
+      background-color: green;
+      font-size: small;
+  }

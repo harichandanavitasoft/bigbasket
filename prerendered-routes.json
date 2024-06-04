@@ -1,0 +1,10 @@
+{
+  "routes": [
+    "/",
+    "/beans",
+    "/hdfc",
+    "/icici",
+    "/tomato",
+    "/vegetbles"
+  ]
+}
